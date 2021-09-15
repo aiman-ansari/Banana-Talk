@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family: 'Kalam', cursive;
+    font-weight: 700;
+}
+:root{
+    --width-break:600px;
+}
+.header{
+    height: 12vh;
+    width: 100%;
+    background-color: #F4DD4B;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+.main-content{
+    max-width: var(--width-break);
+    margin:auto;
+}
+.text-area{
+    height: 20vh;
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 5px 10px;
+}
+#translate{
+    background-color: #F4DD4B;
+    margin-top: 1rem;
+    border-radius: 5px;
+    height: 10vh;
+    width: 30%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2rem;
+    border-style: none;
+    font-weight: bold;
+}
+.output{
+    font-size: 1.2rem;
+    margin-left: 30px;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+#output-field{
+    height: 20vh;
+    width: 90%;
+    display: flex;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 0.5rem;
+    padding: 5px 10px;
+}
+.footer{
+    position: fixed;
+    font-size: 1.2rem;
+    background-color: #F4DD4B;
+    height: 6.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 20px 10px;
+    bottom: 0;
+    width: 100%;
+}
+.footer p{
+    font-size: 1rem;
+    font-weight: 600;
+
+}
